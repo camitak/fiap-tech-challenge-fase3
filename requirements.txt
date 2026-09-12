@@ -2,8 +2,6 @@ pandas
 numpy
 matplotlib
 scikit-learn
-google-cloud-bigquery
-db-dtypes
 pyarrow
 jupyter
 joblib
