@@ -51,3 +51,7 @@ artifacts/
 # Temporary files
 tmp/
 temp/
+
+# Reproducible aggregated snapshots
+!data/eda/
+!data/eda/*.csv

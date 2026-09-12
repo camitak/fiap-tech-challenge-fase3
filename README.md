@@ -44,3 +44,29 @@ src/evaluation/       avaliação dos modelos
 src/visualization/    visualizações
 reports/              documentação e resultados
 images/               gráficos utilizados no projeto
+
+## Reprodutibilidade da EDA
+
+A fonte oficial dos dados é a tabela:
+
+`fiap-tc-f2-camila-takemoto.alfabetizacao_gold.gold_ml_aluno`
+
+armazenada no Google BigQuery.
+
+Para permitir a reprodução da análise sem necessidade de credenciais do Google
+Cloud, o repositório contém um snapshot agregado derivado da Gold:
+
+`data/eda/municipio_ano_rede.csv`
+
+O arquivo possui granularidade de:
+
+`ano + município + rede`
+
+e não contém identificadores individuais de alunos ou escolas.
+
+### Executar localmente
+
+Instale as dependências:
+
+```bash
+python -m pip install -r requirements.txt
