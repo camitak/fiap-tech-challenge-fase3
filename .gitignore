@@ -63,3 +63,4 @@ temp/
 # Métricas reproduzíveis dos modelos
 !reports/metrics/
 !reports/metrics/*.json
+!reports/metrics/*.csv
