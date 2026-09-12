@@ -53,16 +53,13 @@ A fonte oficial dos dados é a tabela:
 
 armazenada no Google BigQuery.
 
-Para permitir a reprodução da análise sem necessidade de credenciais do Google
-Cloud, o repositório contém um snapshot agregado derivado da Gold:
+Para permitir a reprodução da análise sem dependência de credenciais ou acesso
+ao ambiente Google Cloud, foi disponibilizado o snapshot agregado:
 
 `data/eda/municipio_ano_rede.csv`
 
-O arquivo possui granularidade de:
-
-`ano + município + rede`
-
-e não contém identificadores individuais de alunos ou escolas.
+O arquivo possui granularidade de `ano + município + rede` e não contém
+identificadores individuais de alunos ou escolas.
 
 ### Executar localmente
 
