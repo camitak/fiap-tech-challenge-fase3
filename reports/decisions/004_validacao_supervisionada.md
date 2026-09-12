@@ -1,4 +1,4 @@
-# Decisão 004 — Estratégia de validação supervisionada
+# Decisão 004: Estratégia de validação supervisionada
 
 ## Objetivo
 

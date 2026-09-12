@@ -1,4 +1,4 @@
-# Decisão 006 — Seleção do modelo campeão e threshold
+# Decisão 006: Seleção do modelo campeão e threshold
 
 ## Objetivo
 

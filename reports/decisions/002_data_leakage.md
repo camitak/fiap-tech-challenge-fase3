@@ -1,4 +1,4 @@
-# Decisão 002 — Tratamento de data leakage
+# Decisão 002: Tratamento de data leakage
 
 ## Proficiência individual
 

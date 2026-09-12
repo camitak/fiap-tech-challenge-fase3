@@ -1,4 +1,4 @@
-# Decisão 005 — Comparação inicial dos modelos supervisionados
+# Decisão 005: Comparação inicial dos modelos supervisionados
 
 ## Objetivo
 

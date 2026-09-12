@@ -1,4 +1,4 @@
-# Decisão 001 — População de modelagem e definição do target
+# Decisão 001: População de modelagem e definição do target
 
 ## Contexto
 

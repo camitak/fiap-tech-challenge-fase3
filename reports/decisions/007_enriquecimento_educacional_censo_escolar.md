@@ -1,4 +1,4 @@
-# Decisão 006 — Enriquecimento educacional com Censo Escolar
+# Decisão 007: Enriquecimento educacional com Censo Escolar
 
 ## Contexto
 
