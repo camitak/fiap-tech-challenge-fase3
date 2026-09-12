@@ -59,3 +59,7 @@ temp/
 # Dados reproduzíveis da modelagem supervisionada
 !data/modeling/
 !data/modeling/**
+
+# Métricas reproduzíveis dos modelos
+!reports/metrics/
+!reports/metrics/*.json
