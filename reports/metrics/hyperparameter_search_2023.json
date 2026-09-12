@@ -1,0 +1,66 @@
+{
+  "ano_desenvolvimento": 2023,
+  "ano_teste_final": 2024,
+  "criterio_otimizacao": "PR-AUC da classe não alfabetizado",
+  "refit_metric": "pr_auc_risk",
+  "group_variable": "id_municipio",
+  "cross_validation": {
+    "metodo": "GroupKFold",
+    "n_splits": 5
+  },
+  "random_state": 42,
+  "n_iter_por_modelo": 8,
+  "features": [
+    "rede_nome",
+    "regiao",
+    "capital_uf",
+    "amazonia_legal",
+    "populacao_2020",
+    "pib_por_habitante_2020",
+    "participacao_agropecuaria_2020",
+    "participacao_industria_2020",
+    "participacao_administracao_publica_2020"
+  ],
+  "melhores_resultados": [
+    {
+      "modelo": "decision_tree",
+      "melhores_parametros": {
+        "classifier__min_samples_split": 2000,
+        "classifier__min_samples_leaf": 500,
+        "classifier__max_features": "sqrt",
+        "classifier__max_depth": 10,
+        "classifier__criterion": "entropy",
+        "classifier__class_weight": "balanced"
+      },
+      "pr_auc_risk_train": 0.5230886613140878,
+      "pr_auc_risk_validation": 0.4617969993610491,
+      "gap_pr_auc_train_validation": 0.0612916619530387,
+      "roc_auc_validation": 0.5567565768061407,
+      "balanced_accuracy_validation": 0.5384337287933363,
+      "recall_risk_validation": 0.6031394303025653,
+      "f1_risk_validation": 0.5146913180085788,
+      "pr_auc_risk_std": 0.011941093690768368,
+      "tempo_busca_segundos": 241.1340041000076
+    },
+    {
+      "modelo": "random_forest",
+      "melhores_parametros": {
+        "classifier__n_estimators": 150,
+        "classifier__min_samples_split": 100,
+        "classifier__min_samples_leaf": 50,
+        "classifier__max_features": "sqrt",
+        "classifier__max_depth": 12,
+        "classifier__class_weight": null
+      },
+      "pr_auc_risk_train": 0.5654612336099312,
+      "pr_auc_risk_validation": 0.4733412901521346,
+      "gap_pr_auc_train_validation": 0.09211994345779656,
+      "roc_auc_validation": 0.5732677490223788,
+      "balanced_accuracy_validation": 0.5234784624991867,
+      "recall_risk_validation": 0.1752211028037905,
+      "f1_risk_validation": 0.25590882823060357,
+      "pr_auc_risk_std": 0.021234169980734168,
+      "tempo_busca_segundos": 1243.086478199999
+    }
+  ]
+}
