@@ -1,0 +1,20 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "feature_set": "enriched_uf",
+  "development_year": 2023,
+  "selection_metric": "mean_validation_pr_auc_risk",
+  "candidate_id": 6,
+  "mean_validation_pr_auc_risk": 0.5446348242718694,
+  "std_validation_pr_auc_risk": 0.009805530518149981,
+  "mean_validation_roc_auc_literate": 0.644028787585144,
+  "mean_pr_auc_gap_train_validation": 0.0322319480079404,
+  "params": {
+    "learning_rate": 0.06197763962309192,
+    "max_iter": 230,
+    "max_leaf_nodes": 15,
+    "max_depth": null,
+    "min_samples_leaf": 70,
+    "l2_regularization": 0.716404042819101,
+    "max_bins": 255
+  }
+}
