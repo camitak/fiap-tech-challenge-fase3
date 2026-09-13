@@ -1,0 +1,4 @@
+cluster_id,cluster_nome,n_municipios_com_historico,n_risco_nao_atingir_2025,share_risco_nao_atingir_2025,taxa_observada_2024_media,meta_2025_media,ganho_2023_2024_medio_pp,ganho_anual_requerido_2025_medio_pp,deficit_trajetoria_2025_medio_entre_risco_pp
+0,Urbano-industrial de maior escala,1324,675,0.5098187311178247,62.72442598187311,66.34353474320241,2.2070543806646525,6.498323262839878,18.5758962962963
+2,"Rural, menor renda e maior presenca da administracao publica",2058,1016,0.4936831875607386,58.026404275996114,60.64951895043731,4.135102040816327,7.641516034985423,21.903759842519687
+1,Pequeno porte agropecuario com maior infraestrutura educacional,1850,841,0.4545945945945946,69.48394594594595,70.10961621621622,1.7050810810810808,6.650502702702703,28.249667063020215

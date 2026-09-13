@@ -1,0 +1,51 @@
+rank_risco_meta_2025,rank_gap_atual_2025,id_municipio,municipio,sigla_uf,regiao,cluster_id,cluster_nome,taxa_observada_2023,taxa_observada_2024,ganho_observado_2023_2024_pp,meta_alfabetizacao_2025,gap_atual_meta_2025_pp,ganho_anual_requerido_2025_pp,cenario_tendencia_bruto_2025,cenario_tendencia_2025,deficit_trajetoria_2025_pp,participacao_2024,status_meta_2025
+1,1,4320453,Sério,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,85.4,11.1,-74.30000000000001,80.0,68.9,68.9,-63.20000000000001,0.0,143.20000000000002,100.0,ABAIXO_META_EM_RISCO
+2,2,4301073,Arroio do Padre,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,94.6,18.2,-76.39999999999999,80.0,61.8,61.8,-58.19999999999999,0.0,138.2,84.62,ABAIXO_META_EM_RISCO
+3,4,4319752,São Vendelino,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,100.0,25.0,-75.0,80.0,55.0,55.0,-50.0,0.0,130.0,100.0,ABAIXO_META_EM_RISCO
+4,9,4302584,Bozano,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,100.0,27.3,-72.7,80.0,52.7,52.7,-45.400000000000006,0.0,125.4,100.0,ABAIXO_META_EM_RISCO
+5,4,4310850,Jaboticaba,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,85.5,25.0,-60.5,80.0,55.0,55.0,-35.5,0.0,115.5,100.0,ABAIXO_META_EM_RISCO
+6,11,4313334,Nova Ramada,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,87.0,28.0,-59.0,80.0,52.0,52.0,-31.0,0.0,111.0,96.15,ABAIXO_META_EM_RISCO
+7,3,4319208,São Nicolau,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,57.9,7.1,-50.8,65.1,57.99999999999999,57.99999999999999,-43.699999999999996,0.0,108.79999999999998,82.35,ABAIXO_META_EM_RISCO
+8,8,4306700,Dona Francisca,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,81.3,26.7,-54.599999999999994,80.0,53.3,53.3,-27.899999999999995,0.0,107.89999999999999,93.75,ABAIXO_META_EM_RISCO
+9,19,4312203,Maximiliano de Almeida,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,93.8,33.3,-60.5,80.0,46.7,46.7,-27.200000000000003,0.0,107.2,100.0,ABAIXO_META_EM_RISCO
+10,7,1713601,Monte do Carmo,TO,Norte,1,Pequeno porte agropecuario com maior infraestrutura educacional,70.0,19.71,-50.29,73.1,53.38999999999999,53.38999999999999,-30.58,0.0,103.67999999999999,81.01,ABAIXO_META_EM_RISCO
+11,19,4323507,Vista Alegre,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,90.0,33.3,-56.7,80.0,46.7,46.7,-23.400000000000006,0.0,103.4,90.0,ABAIXO_META_EM_RISCO
+12,40,4321493,Toropi,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,100.0,38.7,-61.3,80.0,41.3,41.3,-22.599999999999994,0.0,102.6,94.12,ABAIXO_META_EM_RISCO
+13,10,4320354,Sentinela do Sul,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,73.8,23.5,-50.3,75.7,52.2,52.2,-26.799999999999997,0.0,102.5,85.71,ABAIXO_META_EM_RISCO
+14,24,2100808,Anapurus,MA,Nordeste,2,"Rural, menor renda e maior presenca da administracao publica",91.1,34.63,-56.46999999999999,80.0,45.37,45.37,-21.83999999999999,0.0,101.83999999999999,76.76,ABAIXO_META_EM_RISCO
+15,53,4321634,Três Arroios,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,100.0,40.0,-60.0,80.0,40.0,40.0,-20.0,0.0,100.0,100.0,ABAIXO_META_EM_RISCO
+16,12,4203105,Caibi,SC,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,75.5,27.3,-48.2,76.83,49.53,49.53,-20.900000000000002,0.0,97.73,73.81,ABAIXO_META_EM_RISCO
+17,26,3505401,Barra do Turvo,SP,Sudeste,2,"Rural, menor renda e maior presenca da administracao publica",87.5,34.89,-52.61,80.0,45.11,45.11,-17.72,0.0,97.72,93.22,ABAIXO_META_EM_RISCO
+18,60,4311643,Linha Nova,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,100.0,41.2,-58.8,80.0,38.8,38.8,-17.599999999999994,0.0,97.6,100.0,ABAIXO_META_EM_RISCO
+19,6,1704600,Chapada de Areia,TO,Norte,1,Pequeno porte agropecuario com maior infraestrutura educacional,50.0,6.25,-43.75,59.77,53.52,53.52,-37.5,0.0,97.27000000000001,76.19,ABAIXO_META_EM_RISCO
+20,14,3553658,Taquaral,SP,Sudeste,1,Pequeno porte agropecuario com maior infraestrutura educacional,75.0,27.27,-47.730000000000004,76.51,49.24000000000001,49.24000000000001,-20.460000000000004,0.0,96.97000000000001,84.62,ABAIXO_META_EM_RISCO
+21,15,4313953,Pantano Grande,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,72.5,25.7,-46.8,74.82,49.11999999999999,49.11999999999999,-21.099999999999998,0.0,95.91999999999999,82.14,ABAIXO_META_EM_RISCO
+22,31,4310702,Itatiba do Sul,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,88.9,36.8,-52.10000000000001,80.0,43.2,43.2,-15.300000000000011,0.0,95.30000000000001,95.0,ABAIXO_META_EM_RISCO
+23,13,4314209,Pedro Osório,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,67.7,22.3,-45.400000000000006,71.61,49.31,49.31,-23.100000000000005,0.0,94.71000000000001,82.93,ABAIXO_META_EM_RISCO
+24,43,4307203,Erval Grande,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,92.0,38.8,-53.2,80.0,41.2,41.2,-14.400000000000006,0.0,94.4,92.86,ABAIXO_META_EM_RISCO
+25,28,4320230,Sede Nova,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,85.3,36.1,-49.199999999999996,80.0,43.9,43.9,-13.099999999999994,0.0,93.1,90.48,ABAIXO_META_EM_RISCO
+26,16,2509057,Marcação,PB,Nordeste,2,"Rural, menor renda e maior presenca da administracao publica",68.9,24.23,-44.67,72.42,48.19,48.19,-20.44,0.0,92.86,84.96,ABAIXO_META_EM_RISCO
+27,17,4302238,Boa Vista do Incra,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,71.3,26.6,-44.699999999999996,74.0,47.4,47.4,-18.099999999999994,0.0,92.1,95.83,ABAIXO_META_EM_RISCO
+28,33,4301552,Áurea,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,86.7,37.5,-49.2,80.0,42.5,42.5,-11.700000000000003,0.0,91.7,100.0,ABAIXO_META_EM_RISCO
+29,83,4316477,Salvador das Missões,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,100.0,44.4,-55.6,80.0,35.6,35.6,-11.200000000000003,0.0,91.2,90.0,ABAIXO_META_EM_RISCO
+30,18,2411502,Santo Antônio,RN,Nordeste,2,"Rural, menor renda e maior presenca da administracao publica",66.5,23.56,-42.94,70.8,47.239999999999995,47.239999999999995,-19.38,0.0,90.17999999999999,85.39,ABAIXO_META_EM_RISCO
+31,33,4318614,São José do Sul,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,85.0,37.5,-47.5,80.0,42.5,42.5,-10.0,0.0,90.0,88.89,ABAIXO_META_EM_RISCO
+32,53,4308409,Formigueiro,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,89.5,40.0,-49.5,80.0,40.0,40.0,-9.5,0.0,89.5,93.75,ABAIXO_META_EM_RISCO
+33,21,4311122,Jaquirana,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,68.5,25.6,-42.9,72.13,46.529999999999994,46.529999999999994,-17.299999999999997,0.0,89.42999999999999,71.79,ABAIXO_META_EM_RISCO
+34,27,4313102,Nova Palma,RS,Sul,0,Urbano-industrial de maior escala,81.1,35.9,-45.199999999999996,80.0,44.1,44.1,-9.299999999999997,0.0,89.3,82.35,ABAIXO_META_EM_RISCO
+35,86,2516904,Uiraúna,PB,Nordeste,2,"Rural, menor renda e maior presenca da administracao publica",98.1,44.45,-53.64999999999999,80.0,35.55,35.55,-9.199999999999989,0.0,89.19999999999999,98.21,ABAIXO_META_EM_RISCO
+36,29,4218954,Urupema,SC,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,80.2,36.34,-43.86,80.0,43.66,43.66,-7.519999999999996,0.0,87.52,86.67,ABAIXO_META_EM_RISCO
+37,37,4319000,São Marcos,RS,Sul,0,Urbano-industrial de maior escala,83.8,38.3,-45.5,80.0,41.7,41.7,-7.200000000000003,0.0,87.2,87.61,ABAIXO_META_EM_RISCO
+38,51,4305587,Colinas,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,86.9,39.9,-47.00000000000001,80.0,40.1,40.1,-7.1000000000000085,0.0,87.10000000000001,86.21,ABAIXO_META_EM_RISCO
+39,30,4305900,Coronel Bicaco,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,79.2,36.0,-43.2,79.43,43.43000000000001,43.43000000000001,-7.200000000000003,0.0,86.63000000000001,90.48,ABAIXO_META_EM_RISCO
+40,45,4300901,Aratiba,RS,Sul,0,Urbano-industrial de maior escala,85.0,39.2,-45.8,80.0,40.8,40.8,-6.599999999999994,0.0,86.6,93.18,ABAIXO_META_EM_RISCO
+41,56,2513109,Salgado de São Félix,PB,Nordeste,2,"Rural, menor renda e maior presenca da administracao publica",87.4,40.52,-46.88,80.0,39.48,39.48,-6.359999999999999,0.0,86.36,92.5,ABAIXO_META_EM_RISCO
+42,53,4304952,Caseiros,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,86.1,40.0,-46.099999999999994,80.0,40.0,40.0,-6.099999999999994,0.0,86.1,80.0,ABAIXO_META_EM_RISCO
+43,36,2107456,Olinda Nova do Maranhão,MA,Nordeste,2,"Rural, menor renda e maior presenca da administracao publica",80.8,37.64,-43.16,80.0,42.36,42.36,-5.519999999999996,0.0,85.52,93.48,ABAIXO_META_EM_RISCO
+44,25,1711100,Itaporã do Tocantins,TO,Norte,1,Pequeno porte agropecuario com maior infraestrutura educacional,64.2,24.0,-40.2,69.25,45.25,45.25,-16.200000000000003,0.0,85.45,83.33,ABAIXO_META_EM_RISCO
+45,124,3554755,Trabiju,SP,Sudeste,1,Pequeno porte agropecuario com maior infraestrutura educacional,100.0,47.37,-52.63,80.0,32.63,32.63,-5.260000000000005,0.0,85.26,95.0,ABAIXO_META_EM_RISCO
+46,79,3515657,Fernão,SP,Sudeste,1,Pequeno porte agropecuario com maior infraestrutura educacional,92.9,44.0,-48.900000000000006,80.0,36.0,36.0,-4.900000000000006,0.0,84.9,92.59,ABAIXO_META_EM_RISCO
+47,49,2106359,Marajá do Sena,MA,Nordeste,2,"Rural, menor renda e maior presenca da administracao publica",83.3,39.77,-43.529999999999994,80.0,40.23,40.23,-3.759999999999991,0.0,83.75999999999999,87.23,ABAIXO_META_EM_RISCO
+48,35,4322541,Vale Real,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,76.3,35.0,-41.3,77.4,42.400000000000006,42.400000000000006,-6.299999999999997,0.0,83.7,83.33,ABAIXO_META_EM_RISCO
+49,64,4305850,Coqueiros do Sul,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,86.6,41.7,-44.89999999999999,80.0,38.3,38.3,-3.1999999999999886,0.0,83.19999999999999,80.0,ABAIXO_META_EM_RISCO
+50,44,4307500,Espumoso,RS,Sul,1,Pequeno porte agropecuario com maior infraestrutura educacional,81.3,39.1,-42.199999999999996,80.0,40.9,40.9,-3.0999999999999943,0.0,83.1,81.25,ABAIXO_META_EM_RISCO
