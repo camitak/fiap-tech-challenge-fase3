@@ -1,0 +1,54 @@
+{
+  "model": "HistGradientBoostingClassifier",
+  "feature_set": "enriched_uf",
+  "development_year": 2023,
+  "validation_strategy": "5-fold GroupKFold by id_municipio",
+  "n_rows": 1502809,
+  "n_municipalities": 4871,
+  "oof_roc_auc_literate": 0.6445528538905003,
+  "oof_pr_auc_risk": 0.5446540330204573,
+  "fold_mean_pr_auc_risk": 0.5446348242718694,
+  "fold_std_pr_auc_risk": 0.009805530518149981,
+  "fold_mean_roc_auc_literate": 0.644028787585144,
+  "fold_std_roc_auc_literate": 0.009556992513652338,
+  "selection_rule": "maximize balanced_accuracy; tie-break by higher recall_risk; then higher f1_risk",
+  "threshold_grid": {
+    "minimum": 0.1,
+    "maximum": 0.9,
+    "step": 0.01
+  },
+  "selected_threshold_risk": 0.41,
+  "selected_threshold_metrics": {
+    "accuracy": 0.5943689450888303,
+    "balanced_accuracy": 0.5992840534808945,
+    "precision_risk": 0.5102515244891761,
+    "recall_risk": 0.6285902056662968,
+    "f1_risk": 0.5632724938458408,
+    "recall_literate": 0.5699779012954924,
+    "actual_risk_rate": 0.416142038010153,
+    "predicted_risk_rate": 0.5126546354194046,
+    "true_negative": 500114,
+    "false_positive": 377313,
+    "false_negative": 232273,
+    "true_positive": 393109
+  },
+  "threshold_050_diagnostic": {
+    "balanced_accuracy": 0.5832534996844098,
+    "precision_risk": 0.5843909296700742,
+    "recall_risk": 0.3376688168191601,
+    "f1_risk": 0.42802127418073327,
+    "predicted_risk_rate": 0.24045237951063642
+  },
+  "final_hgb_params": {
+    "learning_rate": 0.06197763962309192,
+    "max_iter": 230,
+    "max_leaf_nodes": 15,
+    "max_depth": null,
+    "min_samples_leaf": 70,
+    "l2_regularization": 0.716404042819101,
+    "max_bins": 255,
+    "early_stopping": false,
+    "random_state": 42
+  },
+  "test_year_2024_used": false
+}

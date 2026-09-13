@@ -1,0 +1,90 @@
+{
+  "ano_desenvolvimento": 2023,
+  "ano_teste_final": 2024,
+  "metodo_probabilidade": "out-of-fold com GroupKFold",
+  "group_variable": "id_municipio",
+  "n_splits": 5,
+  "criterio_threshold": "maximizacao da Balanced Accuracy; desempate por Recall e F1 da classe nao alfabetizado",
+  "observacao_f1": "O threshold que maximiza F1 tambem foi registrado como diagnostico, mas nao foi utilizado como criterio oficial porque pode produzir classificacao excessiva da populacao como risco.",
+  "threshold_grid": {
+    "inicio": 0.1,
+    "fim": 0.9,
+    "passo": 0.01
+  },
+  "modelos": [
+    {
+      "modelo": "decision_tree",
+      "pr_auc_risk_oof": 0.45942566819422376,
+      "roc_auc_oof": 0.5561796016101928,
+      "threshold_selecionado": 0.49,
+      "criterio_threshold": "maximizacao da Balanced Accuracy; desempate por Recall e F1 da classe nao alfabetizado",
+      "threshold_05": {
+        "accuracy": 0.5273877119447647,
+        "balanced_accuracy": 0.5382338439624467,
+        "precision_risk": 0.4494227335467737,
+        "recall_risk": 0.6029035053775132,
+        "recall_alfabetizado": 0.47356418254738003,
+        "f1_risk": 0.5149706078386381,
+        "taxa_predita_risco": 0.5582572369476094
+      },
+      "threshold_otimizado": {
+        "threshold": 0.49,
+        "accuracy": 0.5216318241373321,
+        "balanced_accuracy": 0.5420766511092354,
+        "precision_risk": 0.4493968575553521,
+        "recall_risk": 0.6639781765384997,
+        "recall_alfabetizado": 0.4201751256799711,
+        "f1_risk": 0.5360093353711429,
+        "taxa_predita_risco": 0.6148446010105076
+      },
+      "diagnostico_f1_maximo": {
+        "threshold": 0.12,
+        "accuracy": 0.4161007819356951,
+        "balanced_accuracy": 0.4996406144207029,
+        "precision_risk": 0.415967078408772,
+        "recall_risk": 0.9977437790022738,
+        "recall_alfabetizado": 0.0015374498391319165,
+        "f1_risk": 0.5871477361532791,
+        "taxa_predita_risco": 0.9981634392660678
+      },
+      "tempo_medio_fold_segundos": 1.9497080400004052
+    },
+    {
+      "modelo": "random_forest",
+      "pr_auc_risk_oof": 0.472587474182826,
+      "roc_auc_oof": 0.573840554313663,
+      "threshold_selecionado": 0.42,
+      "criterio_threshold": "maximizacao da Balanced Accuracy; desempate por Recall e F1 da classe nao alfabetizado",
+      "threshold_05": {
+        "accuracy": 0.5818058049958444,
+        "balanced_accuracy": 0.523402439890702,
+        "precision_risk": 0.49305986875860763,
+        "recall_risk": 0.1751745333252316,
+        "recall_alfabetizado": 0.8716303464561724,
+        "f1_risk": 0.2585066920884224,
+        "taxa_predita_risco": 0.14784713160488125
+      },
+      "threshold_otimizado": {
+        "threshold": 0.42,
+        "accuracy": 0.5452110015311327,
+        "balanced_accuracy": 0.5544512436071634,
+        "precision_risk": 0.4646065642303197,
+        "recall_risk": 0.609545845579182,
+        "recall_alfabetizado": 0.4993566416351446,
+        "f1_risk": 0.5272976133910706,
+        "taxa_predita_risco": 0.5459622613385999
+      },
+      "diagnostico_f1_maximo": {
+        "threshold": 0.3,
+        "accuracy": 0.453142748013886,
+        "balanced_accuracy": 0.5244846129751386,
+        "precision_risk": 0.4290568065595368,
+        "recall_risk": 0.9498578468839846,
+        "recall_alfabetizado": 0.09911137906629269,
+        "f1_risk": 0.5911068875101374,
+        "taxa_predita_risco": 0.9212667744204354
+      },
+      "tempo_medio_fold_segundos": 12.03872132000106
+    }
+  ]
+}

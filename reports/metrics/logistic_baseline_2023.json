@@ -1,0 +1,87 @@
+{
+  "modelo": "LogisticRegression baseline",
+  "ano_desenvolvimento": 2023,
+  "ano_teste_final": 2024,
+  "random_state": 42,
+  "validation_size_groups": 0.2,
+  "features_baseline": [
+    "rede_nome",
+    "regiao",
+    "capital_uf",
+    "amazonia_legal",
+    "populacao_2020",
+    "pib_por_habitante_2020",
+    "participacao_agropecuaria_2020",
+    "participacao_industria_2020",
+    "participacao_administracao_publica_2020"
+  ],
+  "features_transformadas": [
+    "categorical__rede_nome_Estadual",
+    "categorical__rede_nome_Municipal",
+    "categorical__regiao_Centro-Oeste",
+    "categorical__regiao_Nordeste",
+    "categorical__regiao_Norte",
+    "categorical__regiao_Sudeste",
+    "categorical__regiao_Sul",
+    "binary__capital_uf",
+    "binary__amazonia_legal",
+    "log_numeric__populacao_2020",
+    "log_numeric__pib_por_habitante_2020",
+    "numeric__participacao_agropecuaria_2020",
+    "numeric__participacao_industria_2020",
+    "numeric__participacao_administracao_publica_2020"
+  ],
+  "split": {
+    "registros_treino": 1191838,
+    "registros_validacao": 310971,
+    "municipios_treino": 3896,
+    "municipios_validacao": 975,
+    "municipios_overlap": 0,
+    "taxa_alfabetizados_treino": 0.5876847356771642,
+    "taxa_alfabetizados_validacao": 0.5691913393853446
+  },
+  "treinamento_segundos": 2.284022299994831,
+  "convergencia_iteracoes": [
+    19
+  ],
+  "metricas_validacao": {
+    "accuracy": 0.5649594335163086,
+    "balanced_accuracy": 0.5045151854090814,
+    "roc_auc_alfabetizado": 0.5488133573209498,
+    "pr_auc_nao_alfabetizado": 0.45900943693399104,
+    "classe_0_nao_alfabetizado": {
+      "precision": 0.4661905251258863,
+      "recall": 0.0677246228605125,
+      "f1": 0.11826814659358278,
+      "support": 133969
+    },
+    "classe_1_alfabetizado": {
+      "precision": 0.5715535369405405,
+      "recall": 0.9413057479576502,
+      "f1": 0.7112447733350978,
+      "support": 177002
+    },
+    "confusion_matrix_labels": [
+      0,
+      1
+    ],
+    "confusion_matrix": [
+      [
+        9073,
+        124896
+      ],
+      [
+        10389,
+        166613
+      ]
+    ]
+  },
+  "baseline_majoritario": {
+    "classe_majoritaria_treino": 1,
+    "accuracy_validacao": 0.5691913393853446
+  },
+  "distribuicao_predicoes": {
+    "taxa_real_nao_alfabetizado": 0.4308086606146554,
+    "taxa_predita_nao_alfabetizado": 0.06258461399937615
+  }
+}

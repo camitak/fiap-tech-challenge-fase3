@@ -55,3 +55,12 @@ temp/
 # Reproducible aggregated snapshots
 !data/eda/
 !data/eda/*.csv
+
+# Dados reproduzíveis da modelagem supervisionada
+!data/modeling/
+!data/modeling/**
+
+# Métricas reproduzíveis dos modelos
+!reports/metrics/
+!reports/metrics/*.json
+!reports/metrics/*.csv

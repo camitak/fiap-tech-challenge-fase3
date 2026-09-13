@@ -1,0 +1,121 @@
+{
+  "analysis": "shap_values",
+  "model": "HistGradientBoostingClassifier",
+  "feature_set": "enriched_uf",
+  "development_year": 2023,
+  "interpretability_year": 2024,
+  "model_changed": false,
+  "features_changed": false,
+  "hyperparameters_changed": false,
+  "threshold_changed": false,
+  "threshold_risk": 0.41,
+  "shap_version": "0.52.0",
+  "explainer": "TreeExplainer",
+  "model_output": "raw",
+  "explained_class": "risk = not literate",
+  "risk_shap_definition": "negative of SHAP values for class alfabetizado=1",
+  "positive_shap_interpretation": "pushes prediction toward risk",
+  "negative_shap_interpretation": "pushes prediction toward literacy",
+  "shap_sample_size": 20000,
+  "sample_strategy": "StratifiedShuffleSplit by alfabetizado + sigla_uf",
+  "sample_actual_risk_rate": 0.4022,
+  "full_2024_actual_risk_rate": 0.402155787827537,
+  "raw_features": 18,
+  "transformed_features": 45,
+  "expected_value_risk_raw": -0.3778246023636299,
+  "max_additivity_error": 5.773159728050814e-15,
+  "top_raw_features": [
+    {
+      "rank": 1,
+      "feature": "sigla_uf",
+      "transformed_components": 23,
+      "mean_abs_shap_risk": 0.23242486687613673,
+      "mean_shap_risk": 0.013717239202775806,
+      "positive_share": 0.74555,
+      "negative_share": 0.25445
+    },
+    {
+      "rank": 2,
+      "feature": "regiao",
+      "transformed_components": 5,
+      "mean_abs_shap_risk": 0.07986495683460046,
+      "mean_shap_risk": -0.001771988528774839,
+      "positive_share": 0.49105,
+      "negative_share": 0.50895
+    },
+    {
+      "rank": 3,
+      "feature": "proporcao_internet_aprendizagem",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.07218944720535703,
+      "mean_shap_risk": -0.02633326991614125,
+      "positive_share": 0.45195,
+      "negative_share": 0.54805
+    },
+    {
+      "rank": 4,
+      "feature": "participacao_administracao_publica_2020",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.05290695992434789,
+      "mean_shap_risk": -0.008575664625125967,
+      "positive_share": 0.28655,
+      "negative_share": 0.71345
+    },
+    {
+      "rank": 5,
+      "feature": "participacao_agropecuaria_2020",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.048134990879284495,
+      "mean_shap_risk": 0.01458410758972133,
+      "positive_share": 0.59145,
+      "negative_share": 0.40855
+    },
+    {
+      "rank": 6,
+      "feature": "populacao_2020",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.04245983259508505,
+      "mean_shap_risk": -0.005916632642989532,
+      "positive_share": 0.60845,
+      "negative_share": 0.39155
+    },
+    {
+      "rank": 7,
+      "feature": "quantidade_escolas_anos_iniciais",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.040539983208823085,
+      "mean_shap_risk": 0.0002946332426212854,
+      "positive_share": 0.57165,
+      "negative_share": 0.42835
+    },
+    {
+      "rank": 8,
+      "feature": "proporcao_matriculas_integral_anos_iniciais",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.02996836486290524,
+      "mean_shap_risk": -0.004961445537154285,
+      "positive_share": 0.7547,
+      "negative_share": 0.2453
+    },
+    {
+      "rank": 9,
+      "feature": "alunos_por_turma_anos_iniciais",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.029906771750755724,
+      "mean_shap_risk": 0.004694325037142775,
+      "positive_share": 0.56555,
+      "negative_share": 0.43445
+    },
+    {
+      "rank": 10,
+      "feature": "participacao_industria_2020",
+      "transformed_components": 1,
+      "mean_abs_shap_risk": 0.02625975821841351,
+      "mean_shap_risk": 0.013146986713170963,
+      "positive_share": 0.4764,
+      "negative_share": 0.5236
+    }
+  ],
+  "interpretation_note": "SHAP explains predictive behavior, not causal effects. Positive SHAP values in this analysis push the prediction toward risk; negative values push toward literacy.",
+  "runtime_seconds": 42.17127829999663
+}

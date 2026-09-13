@@ -1,0 +1,21 @@
+{
+  "model": "RandomForestClassifier",
+  "feature_set": "enriched_uf",
+  "development_year": 2023,
+  "selection_metric": "mean_validation_pr_auc_risk",
+  "candidate_id": 8,
+  "mean_validation_pr_auc_risk": 0.5436145376332314,
+  "std_validation_pr_auc_risk": 0.011974368630775594,
+  "mean_validation_roc_auc_literate": 0.6428958223790813,
+  "mean_estimated_pr_auc_gap": 0.038612219468909005,
+  "train_gap_note": "Train metrics were calculated on a fixed 250000-row training sample per fold and are diagnostic only.",
+  "params": {
+    "n_estimators": 250,
+    "min_samples_split": 50,
+    "min_samples_leaf": 200,
+    "max_features": 0.5,
+    "max_depth": 12,
+    "criterion": "gini",
+    "class_weight": null
+  }
+}

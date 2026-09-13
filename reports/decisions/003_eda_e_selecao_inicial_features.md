@@ -1,4 +1,4 @@
-# Decisão 003 — EDA e seleção inicial de features
+# Decisão 003: EDA e seleção inicial de features
 
 ## Objetivo
 

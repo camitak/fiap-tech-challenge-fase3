@@ -1,0 +1,143 @@
+{
+  "ano_desenvolvimento": 2023,
+  "ano_teste_final": 2024,
+  "random_state": 42,
+  "validation_size_groups": 0.2,
+  "baseline_majoritario": {
+    "classe": 1,
+    "accuracy_validacao": 0.5691913393853446
+  },
+  "split": {
+    "registros_treino": 1191838,
+    "registros_validacao": 310971,
+    "municipios_treino": 3896,
+    "municipios_validacao": 975,
+    "municipios_overlap": 0,
+    "taxa_alfabetizados_treino": 0.5876847356771642,
+    "taxa_alfabetizados_validacao": 0.5691913393853446
+  },
+  "features": [
+    "rede_nome",
+    "regiao",
+    "capital_uf",
+    "amazonia_legal",
+    "populacao_2020",
+    "pib_por_habitante_2020",
+    "participacao_agropecuaria_2020",
+    "participacao_industria_2020",
+    "participacao_administracao_publica_2020"
+  ],
+  "resultados": [
+    {
+      "modelo": "logistic_regression",
+      "treinamento_segundos": 5.294467800005805,
+      "taxa_predita_nao_alfabetizado": 0.06258461399937615,
+      "metricas": {
+        "accuracy": 0.5649594335163086,
+        "balanced_accuracy": 0.5045151854090814,
+        "roc_auc_alfabetizado": 0.5488133573209498,
+        "pr_auc_nao_alfabetizado": 0.45900943693399104,
+        "classe_0_nao_alfabetizado": {
+          "precision": 0.4661905251258863,
+          "recall": 0.0677246228605125,
+          "f1": 0.11826814659358278,
+          "support": 133969
+        },
+        "classe_1_alfabetizado": {
+          "precision": 0.5715535369405405,
+          "recall": 0.9413057479576502,
+          "f1": 0.7112447733350978,
+          "support": 177002
+        },
+        "confusion_matrix_labels": [
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            9073,
+            124896
+          ],
+          [
+            10389,
+            166613
+          ]
+        ]
+      }
+    },
+    {
+      "modelo": "decision_tree",
+      "treinamento_segundos": 7.392993300003582,
+      "taxa_predita_nao_alfabetizado": 0.2766753169909734,
+      "metricas": {
+        "accuracy": 0.5504243160937836,
+        "balanced_accuracy": 0.5199011505961224,
+        "roc_auc_alfabetizado": 0.5520553197124972,
+        "pr_auc_nao_alfabetizado": 0.4588396464888219,
+        "classe_0_nao_alfabetizado": {
+          "precision": 0.4660847532485646,
+          "recall": 0.2993304421172062,
+          "f1": 0.3645429463607976,
+          "support": 133969
+        },
+        "classe_1_alfabetizado": {
+          "precision": 0.5826846216428893,
+          "recall": 0.7404718590750387,
+          "f1": 0.6521701270105863,
+          "support": 177002
+        },
+        "confusion_matrix_labels": [
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            40101,
+            93868
+          ],
+          [
+            45937,
+            131065
+          ]
+        ]
+      }
+    },
+    {
+      "modelo": "random_forest",
+      "treinamento_segundos": 16.73369370000728,
+      "taxa_predita_nao_alfabetizado": 0.11472130841782674,
+      "metricas": {
+        "accuracy": 0.569580443192452,
+        "balanced_accuracy": 0.5165820888966204,
+        "roc_auc_alfabetizado": 0.5816538834927266,
+        "pr_auc_nao_alfabetizado": 0.49461965924826923,
+        "classe_0_nao_alfabetizado": {
+          "precision": 0.5016958654519972,
+          "recall": 0.1335980711955751,
+          "f1": 0.2110065784819976,
+          "support": 133969
+        },
+        "classe_1_alfabetizado": {
+          "precision": 0.5783774555387655,
+          "recall": 0.8995661065976656,
+          "f1": 0.7040712096891872,
+          "support": 177002
+        },
+        "confusion_matrix_labels": [
+          0,
+          1
+        ],
+        "confusion_matrix": [
+          [
+            17898,
+            116071
+          ],
+          [
+            17777,
+            159225
+          ]
+        ]
+      }
+    }
+  ]
+}
