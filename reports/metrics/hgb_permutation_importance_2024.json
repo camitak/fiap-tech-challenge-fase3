@@ -1,0 +1,110 @@
+{
+  "analysis": "permutation_importance",
+  "model": "HistGradientBoostingClassifier",
+  "feature_set": "enriched_uf",
+  "development_year": 2023,
+  "interpretability_year": 2024,
+  "model_changed": false,
+  "hyperparameters_changed": false,
+  "threshold_changed": false,
+  "sample_size": 250000,
+  "sample_strategy": "StratifiedShuffleSplit by alfabetizado + sigla_uf",
+  "random_state": 42,
+  "n_repeats": 5,
+  "primary_importance_metric": "drop in PR-AUC risk",
+  "secondary_importance_metrics": [
+    "drop in ROC-AUC",
+    "drop in Balanced Accuracy"
+  ],
+  "threshold_risk": 0.41,
+  "baseline_metrics": {
+    "pr_auc_risk": 0.5253040532680108,
+    "roc_auc_literate": 0.6314559327027521,
+    "balanced_accuracy": 0.5902724135256414
+  },
+  "sample_actual_risk_rate": 0.40215199999999995,
+  "top_features": [
+    {
+      "rank_pr_auc": 1,
+      "feature": "sigla_uf",
+      "importance_pr_auc_mean": 0.07345938772234942,
+      "importance_pr_auc_std": 0.0010831948839376024,
+      "importance_roc_auc_mean": 0.07042528366301803,
+      "importance_balanced_accuracy_mean": 0.04515705706694169
+    },
+    {
+      "rank_pr_auc": 2,
+      "feature": "participacao_administracao_publica_2020",
+      "importance_pr_auc_mean": 0.007140127348894687,
+      "importance_pr_auc_std": 0.00038630965547939336,
+      "importance_roc_auc_mean": 0.005206809347219043,
+      "importance_balanced_accuracy_mean": 0.003973699855830626
+    },
+    {
+      "rank_pr_auc": 3,
+      "feature": "participacao_agropecuaria_2020",
+      "importance_pr_auc_mean": 0.005325865584446721,
+      "importance_pr_auc_std": 0.00019290606807957652,
+      "importance_roc_auc_mean": 0.008841437495493775,
+      "importance_balanced_accuracy_mean": 0.005565944847529503
+    },
+    {
+      "rank_pr_auc": 4,
+      "feature": "quantidade_escolas_anos_iniciais",
+      "importance_pr_auc_mean": 0.005127029202421163,
+      "importance_pr_auc_std": 0.00018393811121291212,
+      "importance_roc_auc_mean": 0.00573101165289831,
+      "importance_balanced_accuracy_mean": 0.0037123716351140867
+    },
+    {
+      "rank_pr_auc": 5,
+      "feature": "populacao_2020",
+      "importance_pr_auc_mean": 0.004244306780661011,
+      "importance_pr_auc_std": 0.0002468920625243785,
+      "importance_roc_auc_mean": 0.004957912013647925,
+      "importance_balanced_accuracy_mean": 0.0030942122461166564
+    },
+    {
+      "rank_pr_auc": 6,
+      "feature": "pib_por_habitante_2020",
+      "importance_pr_auc_mean": 0.00355523295572715,
+      "importance_pr_auc_std": 0.0001809753699718998,
+      "importance_roc_auc_mean": 0.004065592042352306,
+      "importance_balanced_accuracy_mean": 0.003154481965400624
+    },
+    {
+      "rank_pr_auc": 7,
+      "feature": "regiao",
+      "importance_pr_auc_mean": 0.003454556309916068,
+      "importance_pr_auc_std": 0.000256716428017715,
+      "importance_roc_auc_mean": 0.002770974515166036,
+      "importance_balanced_accuracy_mean": 0.004660416288757685
+    },
+    {
+      "rank_pr_auc": 8,
+      "feature": "participacao_industria_2020",
+      "importance_pr_auc_mean": 0.00316966852641718,
+      "importance_pr_auc_std": 0.00014287484391914786,
+      "importance_roc_auc_mean": 0.0030248472355498546,
+      "importance_balanced_accuracy_mean": 0.0030037073917496436
+    },
+    {
+      "rank_pr_auc": 9,
+      "feature": "rede_nome",
+      "importance_pr_auc_mean": 0.002889363787000754,
+      "importance_pr_auc_std": 0.0001288325758005488,
+      "importance_roc_auc_mean": 0.004000381281991672,
+      "importance_balanced_accuracy_mean": 0.005075714946877796
+    },
+    {
+      "rank_pr_auc": 10,
+      "feature": "proporcao_matriculas_integral_anos_iniciais",
+      "importance_pr_auc_mean": 0.0019344849607559444,
+      "importance_pr_auc_std": 0.00016685884302644765,
+      "importance_roc_auc_mean": 0.0024886570568017686,
+      "importance_balanced_accuracy_mean": 0.002849232515905231
+    }
+  ],
+  "interpretation_note": "Permutation importance measures predictive dependence, not causal effect. Correlated features may share or mask importance.",
+  "runtime_seconds": 121.12974609999219
+}
