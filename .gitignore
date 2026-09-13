@@ -64,3 +64,5 @@ temp/
 !reports/metrics/
 !reports/metrics/*.json
 !reports/metrics/*.csv
+# Dados de referência locais
+data/reference/

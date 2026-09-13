@@ -1,7 +1,15 @@
-pandas
-numpy
-matplotlib
-scikit-learn
-pyarrow
-jupyter
-joblib
+# Ambiente de referência
+# Python 3.13.9
+#
+# Dependências diretas utilizadas pelo projeto.
+# As versões abaixo correspondem ao ambiente que gerou
+# os resultados finais da Fase 3.
+
+numpy==2.3.5
+pandas==2.3.3
+scipy==1.16.3
+scikit-learn==1.7.2
+matplotlib==3.10.6
+pyarrow==21.0.0
+shap==0.52.0
+jupyter-core==5.8.1
